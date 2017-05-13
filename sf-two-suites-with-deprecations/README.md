@@ -1,0 +1,13 @@
+# sf-two-suites-with-deptecations
+A Symfony Standard Edition test case for the Codeception 2.2.5
+
+Steps to reproduce:
+<pre>
+git clone https://github.com/positronium/sf-two-suites-with-deptecations.git sfs
+cd sfs
+composer install
+php vendor/codeception/codeception/codecept run
+</pre>
+
+You'll get 255 error code or `Maximum function nesting level of '100' reached` if you have Xdebug installed.
+
